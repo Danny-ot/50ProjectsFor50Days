@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right , hsl(168, 26%, 63%) , rgb(87, 154, 199));
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.quiz-container {
+    width: 600px;
+    background-color: #fff;
+    align-self: center;
+}
+
+.questions-div {
+    padding: 5rem;
+}
+
+#question {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.answers > ul {
+    list-style: none;
+}
+
+.answers > ul > li {
+    margin-block: 1.5rem;
+}
+
+input[type = "radio"] {
+    cursor: pointer;
+}
+
+.answers > ul > li label{
+    font-size: 1.5rem;
+    
+}
+
+.btn {
+    background-color: hsl(240, 100%, 50%);
+    font-size: 1.3rem;
+    text-align: center;
+    padding-block: .9rem;
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+}
+
+.results-div {
+    display: none;
+    width: 600px;
+    align-self: center;
+    background-color: #fff;
+}
+
+.results-div #results-div-text {
+    padding: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
